@@ -14,3 +14,6 @@ COPY /home/future/Downloads/ROOT.war /usr/local/tomcat/webapps/
 docker network create --driver=bridge --subnet=10.10.20.0/24 bridge_network_subnet
 #Container creation command:
 docker run -d --name exam_devops --network=bridge_network_subnet -p 8081:8080 future2018/exam_devops:1.0
+
+#Jenkins job  link
+https://jenkins.learn.akawork.io/job/MinhHN4/job/exam_devops/
